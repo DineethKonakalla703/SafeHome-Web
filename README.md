@@ -102,6 +102,8 @@ Configure your backend URL:
 VITE_API_BASE_URL=http://localhost:5000/api
 ```
 
+The backend is deployed at `https://safehome-backend-production.up.railway.app` (health check: `/api/health`). If `VITE_API_BASE_URL` is not set, a production build (`npm run build`) uses that deployment and `npm run dev` uses `http://localhost:5000/api`.
+
 ---
 
 ## 5. Startup & Running Commands
